@@ -1,0 +1,72 @@
+@charset "UTF-8";
+
+body {
+	background-image: url(../images/bg.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.bg img {
+	width: 350px;
+	height: 400px;
+	z-index: 0;
+}
+
+.bg {
+	background-color: #01AAED;
+	width: 350px;
+	height: 450px;
+	margin: 0 auto;
+	margin-top: 200px;
+	opacity: .9;
+	position: relative;
+}
+
+.cover {
+	margin-left: 25px;
+}
+
+.sel {
+	color: black;
+}
+
+.lo {
+	margin-top: 55px;
+	margin-left: 13px;
+}
+
+input {
+	width: 200px;
+	height: 35px;
+	margin-bottom: 30px;
+}
+
+.btn {
+	width: 120px;
+	height: 35px;
+	border-radius: 15%;
+	margin-left: 84px;
+}
+
+.rem {
+	margin-left: 20px;
+	width: 30px;
+	height: 20px;
+	margin-right: 30px;
+}
+
+.code {
+	width: 150px;
+	height: 50px;
+	background-color: red;
+	color: green;
+	opacity: .8;
+	font-weight: bold;
+	font-style: italic;
+	font-size: 20px;
+}
+
+#inputCode {
+	width: 100px;
+	height: 30px;
+}
